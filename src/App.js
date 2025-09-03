@@ -67,10 +67,10 @@ function App() {
       ) : (
         <ul>
           {comerciantes.map(comerciante => (
-            <l1 key={comerciante.id}>
+            <li key={comerciante.id}>
               {comerciante.nombre} - {comerciante.email}
               {comerciante.telefono && ` - Tel: ${comerciante.telefono}` }
-            </l1>
+            </li>
           ))}
         </ul>
         )}
